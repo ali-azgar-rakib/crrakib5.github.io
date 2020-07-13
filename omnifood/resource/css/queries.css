@@ -1,0 +1,293 @@
+/* works in 1024 to 1200 screen  */
+@media only screen and (max-width: 1200px) {
+	.hero-text {
+		width: 100%;
+		padding: 0 2%;
+	}
+
+	.row {
+		width: 1000px;
+		padding: 0 2%;
+	}
+
+	section {
+		padding: 60px 0;
+	}
+
+	html {
+		font-size: 18px;
+	}
+}
+
+/* works in 768 to 1023 screen  */
+@media only screen and (max-width: 1023px) {
+	.row {
+		width: 700px;
+	}
+
+	body {
+		font-size: 17px;
+	}
+
+	header {
+		height: 50vh;
+	}
+
+	.hero-text {
+		position: absolute;
+		width: 100%;
+		top: 30%;
+		left: 40%;
+		transform: translate(-30%, -30%);
+	}
+
+	.step-box:first-child {
+		padding-right: 2%;
+		text-align-last: right;
+		margin-top: 20px;
+	}
+
+	.step-box:last-child {
+		padding-left: 2%;
+		text-align: left;
+		margin-top: 50px;
+	}
+
+	.app-screen {
+		width: 60%;
+	}
+
+	.work-step {
+		margin-bottom: 20px;
+	}
+
+	.work-step:last-of-type {
+		margin-bottom: 60px;
+	}
+
+	.work-step div {
+
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		color: #ffffff;
+		text-align: center;
+		padding: 10px;
+		font-size: 120%;
+		float: left;
+		margin-right: 20px;
+
+	}
+
+	.step-box a:link,
+	.step-box a:visited {
+		border: 0;
+	}
+
+	.app-btn {
+		height: 40px;
+		width: auto;
+		margin-right: 10px;
+
+	}
+
+	/* --------------------------------- */
+	/*  city section */
+	/* ---------------------------------- */
+	.city-box h3 {
+		font-size: 100%;
+	}
+
+	.city-feature {
+		font-size: 80%;
+	}
+
+	/* --------------------------------- */
+	/*  signup section */
+	/* ---------------------------------- */
+
+
+
+	.plan-box {
+		font-size: 100%;
+	}
+
+
+	.plan-box div:last-of-type {
+		text-align: center;
+		border-bottom: 0;
+	}
+
+	.price-month {
+		font-size: 200%;
+	}
+
+	.price-month span {
+		font-size: 50%;
+	}
+
+	.price-meal {
+		font-size: 80%;
+	}
+
+
+	.plan-box ul li {
+		font-size: 80%;
+	}
+
+	.contact-form {
+		width: 70%;
+	}
+}
+
+/* works in 481 to 767 screen  */
+@media only screen and (max-width: 767px) {
+	body {
+		font-size: 15px;
+	}
+
+	.col {
+		width: 100%;
+		margin: 1% 0;
+	}
+
+	.row {
+		width: 350px;
+	}
+
+	section {
+		padding: 30px 0;
+	}
+
+	/* --------------------------------- */
+	/*  header part */
+	/* ---------------------------------- */
+
+	h1 {
+
+		margin-bottom: 10px;
+		font-size: 120%;
+	}
+
+	h2 {
+		font-size: 110%;
+	}
+
+	.hero-text {
+		width: 100%;
+		top: 30%;
+		left: 50%;
+		transform: translate(-42%, -40%);
+	}
+
+	.mobile-nav {
+		display: inline-block;
+		padding: 2px;
+	}
+
+	.main-nav {
+		float: left;
+		margin-top: 20px;
+		display: none;
+	}
+
+	.sticky .mobile-nav {
+		color: #000000;
+		margin-top: 10px;
+		margin-right: 10px;
+	}
+
+	.sticky .main-nav {
+		margin-top: 10px;
+	}
+
+	.main-nav li {
+		display: block;
+
+	}
+
+	header {
+		height: 50vh;
+	}
+
+	.logo {
+		height: 60px;
+	}
+
+	/* --------------------------------- */
+	/* feature part */
+	/* ---------------------------------- */
+	.long-text {
+		width: 90%;
+		margin-bottom: 20px;
+	}
+
+	.icon-big {
+		font-size: 300%;
+		margin-bottom: 20px;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
+	.box h3 {
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
+	/* --------------------------------- */
+	/*  how it's work part */
+	/* ---------------------------------- */
+	.step-box:first-child {
+		padding-right: 82px;
+	}
+
+	.step-box:last-child {
+		padding-left: 3%;
+		text-align: left;
+		margin-top: 70px;
+	}
+
+	.app-screen {
+		width: 70%;
+	}
+
+	.work-step {
+		margin-bottom: 20px;
+	}
+
+	.work-step:last-of-type {
+		margin-bottom: 50px;
+	}
+
+	.work-step div {
+		width: 40px;
+		height: 40px;
+	}
+
+	/* --------------------------------- */
+	/*  city section */
+	/* ---------------------------------- */
+	.city-box {
+		text-align: center;
+	}
+
+	.city-box img {
+		width: 80%;
+		margin-bottom: 20px;
+
+	}
+
+	.icon-small {
+		display: none;
+	}
+
+	.social-link li {
+		float: none;
+	}
+
+
+}
+
+/* works in 0 to 480 screen  */
+
+@media only screen and (max-width:480px) {}
